@@ -1,0 +1,37 @@
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+div > label {
+  font-size: 1.4rem; 
+  color: black
+}
+
+div > input {
+  padding: 10px 15px; 
+  background: #fff;
+  outline: none; 
+  border: 2px solid #c2c2c2; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+  color: black;
+}
+
+div > input[data-error="true"] {
+  border-color: rgb(237, 72, 72);
+}
+
+
+div > :not(input[data-error="true"]):focus {
+  border-color: rgb(123, 196, 245);
+}
+
+div > small {
+  font-size: 12px;
+  color: rgb(237, 72, 72);
+  font-weight: 500;
+}
+

@@ -1,0 +1,54 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  border: 1px solid rgb(255, 255, 255);
+  width: 40%;
+  min-width: 30rem;
+  height: auto;
+  align-items: center;
+  padding: 3rem 2rem;
+  gap: 5rem;
+}
+
+main > div {
+  background: #fff;
+  width: 100%;
+  padding: 3rem 2rem;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main > div h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #4E4BE0;
+}
+
+main form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 2rem;
+  width: 100%;
+  gap: 8px;
+}
+
+main form button {
+  width: 100%;
+  border: none;
+  background: #4E4BE0;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background .5s;
+}
+
+main form button:hover {
+  background-color: #37359a;
+}
+
